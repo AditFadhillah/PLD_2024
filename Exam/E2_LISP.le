@@ -1,9 +1,0 @@
-(let y 8
-    ((\ (f) (f 2))
-        (let y 5
-            (\ (x) (+ x y)))))
-
-(let y 8
-    ((\ (f) (f 2))
-        (let y 5
-            (lambda (x) (+ x y)))))
